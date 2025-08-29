@@ -31,5 +31,6 @@ section {
 }
 
 h2 {
-    color:cadetblue
+    color:cadetblue;
+    font-size: 1.4rem; 
 }
