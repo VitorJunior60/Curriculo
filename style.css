@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Libertinus+Serif+Display&display=swap');
 
+
 * {
     margin: 0;
     padding: 0;
@@ -7,22 +8,27 @@
 }
 
 body {
-    background-color: #F4F0EA;
+    background-color: #eaf4ef;
     font-family: "Libertinus Serif Display", system-ui;
-    font-weight: 400; 
+    font-weight: 400; margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
 }
 
 header {
     padding: 2rem;
     text-align: center;
-    
+    background-color: #e32636;
+    color: whitesmoke;
 }
 
 main {
-    padding: 2rem;
+    margin-top: 20px;
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: 20px;
 }
 
 section {
@@ -32,7 +38,7 @@ section {
 }
 
 h2 {
-    color:cadetblue;
+    color:#e32636;
     font-size: 1.4rem; 
 }
 
@@ -44,5 +50,25 @@ img {
 }
 
 .Cabeçalho {
-    color: cadetblue;
+    color: whitesmoke;
+}
+
+.page {
+    width: 800px;
+    min-height: 1120px; 
+    padding: 60px 80px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.15);
+    margin: 40px 0;
+}
+
+li{
+    color: #23527c;
+    margin-bottom: 8px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #e32636;
+    margin: 20px 0;
 }
